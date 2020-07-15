@@ -10,7 +10,8 @@ const Routes: React.FC = () => (
       {/* in the first route always put the keyword exact to assure, because react-router-dom consider path to include its value. So, without "exact" when you try to navigate to repository page, the systems would always send you to dashboad page */}
 
         <Route path='/' exact component={Dashboard} />
-        <Route path='/repository' component={Repository} />
+        {/* the plus sign below, means that everything after /repository is part of the route parameter */}
+        <Route path='/repository/:repository+' component={Repository} />
 
     </Switch>
 )
