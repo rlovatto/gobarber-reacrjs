@@ -12,7 +12,6 @@ interface Repository {
   owner: {
     login: string;
     avatar_url: string;
-
   }
 }
 
