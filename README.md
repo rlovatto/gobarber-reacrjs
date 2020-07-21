@@ -5,7 +5,7 @@ This app was made as an exercise on Rocketseat's bootcamp.
 
 To install all dependencies:
 ```
-yarn install
+yarn
 ```
 
 To start the project use:
